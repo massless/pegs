@@ -73,13 +73,13 @@ function get_unique_url_for_file($filename) {
   $DEV = false;
   if ($DEV) {
 ?>
-  <script type="text/javascript" src="<?=get_unique_url_for_file("jquery-1.2.6.pack.js")?>"></script>
-  <script type="text/javascript" src="<?=get_unique_url_for_file("jquery-extensions.js")?>"></script>
-  <script type="text/javascript" src="<?=get_unique_url_for_file("scroller-0.9.js")?>"></script>
+  <script type="text/javascript" src="<?=get_unique_url_for_file("jquery-1.3.2.min.js")?>"></script>
+  <script type="text/javascript" src="<?=get_unique_url_for_file("_src/jquery-extensions.js")?>"></script>
+  <script type="text/javascript" src="<?=get_unique_url_for_file("_src/scroller-0.9.js")?>"></script>
 <?
   } else {
 ?>
-  <script type="text/javascript" src="<?=get_unique_url_for_file("jquery-1.2.6.pack.js")?>"></script>
+  <script type="text/javascript" src="<?=get_unique_url_for_file("jquery-1.3.2.min.js")?>"></script>
   <script type="text/javascript" src="<?=get_unique_url_for_file("scroller-0.9.mini.js")?>"></script>
 <?
   }
