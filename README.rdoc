@@ -1,0 +1,15 @@
+== Pegs
+
+Distributed page scrolling in Javascript.
+
+== What's new in this release?
+
+Everything probably.
+
+== Installation/Usage
+
+Download this repository and run it. That's it, currently.
+
+== License
+
+Currently not completed. I should get on that.

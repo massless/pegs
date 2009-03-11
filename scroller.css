@@ -1,0 +1,97 @@
+
+    html, body {
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* General
+    ------------------------------------ */
+    .scroll-dist-list, .scroll-dist-viewer, .scroll-dist-bar {
+      height: 500px; /* Setting a dummy height, JS will resize according to viewport and scrollHeights. */
+    }
+    
+    .scroll-dist-list, .scroll-dist-viewer {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .scroll-dist-main {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .scroll-dist-content {
+      zoom: 1; /* For MSIE, sets hasLayout to true - see also: http://www.satzansatz.de/cssd/onhavinglayout.html */
+    }
+    
+    #scroll-dist-log {
+      width: 500px;
+      height: 240px;
+      overflow: auto;
+      position: absolute;
+      right: 4em;
+      top: 0;
+      border: 1px solid #000;
+      background: #fff;
+      display: none;
+    }
+    
+    /* Header
+    ------------------------------------ */
+    .scroll-dist-header {
+      position: absolute;
+      width: 100%;
+      margin: 0;
+      top: 0;
+      left: 0;
+    }
+    
+    /* List
+    ------------------------------------ */
+    .scroll-dist-list {
+      position: static;
+      margin-left: 0;
+    }
+    
+    /* Controls
+    ------------------------------------ */
+    .scroll-dist-controls {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      z-index: 100000;
+    }
+    
+    /* Viewer
+    ------------------------------------ */
+    .scroll-dist-viewer {
+      padding: 0;
+      margin: 0;
+    }
+    
+    .scroll-dist-viewer .scroll-dist-content {
+      width: 100%;
+      overflow: auto;
+    }
+    
+    .scroll-dist-viewer .scroll-dist-viewer-frame {
+      overflow: hidden;
+      border: 0;
+    }
+    
+    /* Scrollbar
+    ------------------------------------ */
+    .scroll-dist-bar {
+      overflow: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .scroll-dist-bar .scroll-dist-content {
+      padding: 0;
+    }
+    
+    
